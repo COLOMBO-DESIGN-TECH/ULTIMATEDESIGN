@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -222,6 +226,7 @@ html {
     padding: 100px 20px 60px;
     background-color: #fff;
     text-align: center;
+    /* min-height: 100vh; */
 }
 
 .mechanical-focus-container {
@@ -240,7 +245,7 @@ html {
 .section-subtitle {
     font-size: 1.1rem;
     color: #555;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .focus-grid {
@@ -252,7 +257,7 @@ html {
 
 .focus-card {
     background-color: #fff;
-    width: 300px;
+    width: 350px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
@@ -1019,7 +1024,7 @@ textarea {
 }
 
 .footer-column h4 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-bottom: 15px;
 }
 
